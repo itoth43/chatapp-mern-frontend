@@ -1,0 +1,58 @@
+.sidebar-chat {
+    display: flex;
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.sidebar-chat:hover {
+    background-color: #ebebeb;
+}
+
+.sidebar-chat__info {
+    margin-left: 15px;
+}
+
+.sidebar-chat__info > h2 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.sidebar-chat__info > p {
+    font-size: 14px;
+}
+
+.newchat__sidebar-chat {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.newchat__sidebar-chat:hover {
+    background-color: #ebebeb;
+}
+
+.newchat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newchat__create {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newchat__create-input {
+    margin: 5px;
+}
+
+.sidebar-chat__links {
+    text-decoration: none;
+    color: #000000;
+}

@@ -1,0 +1,44 @@
+.login {
+    background-color: #f8f8f8;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(-45deg, #5522e0, #77a4e7);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.login__container {
+    padding: 100px;
+    text-align: center;
+}
+
+.login__container > img {
+    object-fit: contain;
+    height: 100px;
+    margin-bottom: 40px;
+}
+
+.login__text > h1 {
+    margin-bottom: 10px;
+}
+
+.login__container > Button {
+    color: white;
+    text-transform: inherit !important;
+    background-color: #252A2F;
+    margin: 10px;
+}
