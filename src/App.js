@@ -41,7 +41,7 @@ const App = () => {
     const chatChannel = pusher.subscribe("chats");
     chatChannel.bind("inserted", (newChat) => {
       // Where messages are coming in from the backend...
-      setMessages([...chats, newChat])
+      setChats([...chats, newChat])
     });
 
     // clean up function to make sure we only ever have one subscriber
