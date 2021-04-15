@@ -66,9 +66,9 @@ const App = () => {
               <Route path="/rooms/:chatId">
                   <Chat messages={messages} username={user.displayName} />
               </Route>
-                <Route path="/rooms">
-                    <Sidebar chats={chats} device={"mobile"} />
-                </Route>
+              <Route path="/">
+                  <Sidebar chats={chats} device={"mobile"} />
+              </Route>
             </Switch>
           </Router>
         </div>
